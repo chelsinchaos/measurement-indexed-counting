@@ -1,0 +1,20 @@
+[fibre_design_r2_k8] k=8 rows=3 lanes=27 comps=[8] enumerated=256 bucket=2.6ms dict=0.9ms packed=2.9ms agree=True
+[fibre_design_r2_k10] k=10 rows=4 lanes=54 comps=[9, 1] enumerated=514 bucket=5.2ms dict=3.7ms packed=5.4ms agree=True
+[fibre_design_r2_k12] k=12 rows=5 lanes=162 comps=[12] enumerated=4096 bucket=18.7ms dict=18.7ms packed=15.5ms agree=True
+[fibre_design_r2_k14] k=14 rows=5 lanes=243 comps=[13, 1] enumerated=8194 bucket=76.4ms dict=30.8ms packed=27.8ms agree=True
+[fibre_design_r2_k16] k=16 rows=6 lanes=729 comps=[16] enumerated=65536 bucket=241.6ms dict=226.3ms packed=192.3ms agree=True
+[fibre_design_r2_k18] k=18 rows=7 lanes=2187 comps=[15, 3] enumerated=32776 bucket=1047.2ms dict=137.1ms packed=135.5ms agree=True
+[fibre_design_r2_k20] k=20 rows=7 lanes=1458 comps=[19, 1] enumerated=524290 bucket=4137.9ms dict=2800.5ms packed=2280.8ms agree=True
+[fibre_synth_r4_rows8_k16] k=16 rows=8 lanes=65536 comps=[2, 1, 1, 1, 1, 1] enumerated=32 bucket=263.6ms dict=48.2ms packed=688.6ms agree=True
+[fibre_synth_r4_rows8_k18] k=18 rows=8 lanes=65536 comps=[2, 2, 2, 2, 1, 1] enumerated=36 bucket=864.0ms dict=12.6ms packed=398.2ms agree=True
+[fibre_synth_r4_rows8_k20] k=20 rows=8 lanes=65536 comps=[2, 1, 1, 1, 1, 1] enumerated=40 bucket=3859.9ms dict=37.8ms packed=552.4ms agree=True
+[fibre_synth_r4_rows8_k22] k=22 rows=8 lanes=65536 comps=[2, 2, 2, 1, 1, 1] enumerated=44 bucket=14383.6ms dict=150.0ms packed=878.7ms agree=True
+[fibre_synth_r4_rows8_k24] k=24 rows=8 lanes=65536 comps=[2, 2, 2, 2, 1, 1] enumerated=48 bucket=67881.7ms dict=Nonems packed=655.4ms agree=True
+[fibre_synth_r3_rows8_k16] k=16 rows=8 lanes=65536 comps=[2, 1, 1, 1, 1, 1] enumerated=32 bucket=250.2ms dict=40.4ms packed=305.5ms agree=True
+[fibre_synth_r3_rows8_k18] k=18 rows=8 lanes=65536 comps=[3, 3, 3, 2, 2, 2] enumerated=42 bucket=1290.2ms dict=14.9ms packed=329.3ms agree=True
+[fibre_synth_r3_rows8_k20] k=20 rows=8 lanes=65536 comps=[2, 2, 1, 1, 1, 1] enumerated=40 bucket=3707.2ms dict=63.7ms packed=429.7ms agree=True
+[fibre_synth_r3_rows8_k22] k=22 rows=8 lanes=65536 comps=[6, 4, 1, 1, 1, 1] enumerated=104 bucket=17775.5ms dict=59.3ms packed=505.0ms agree=True
+[fibre_synth_r4_rows10_k20] k=20 rows=10 lanes=1048576 comps=[2, 1, 1, 1, 1, 1] enumerated=40 bucket=3892.5ms dict=180.4ms packed=10346.9ms agree=True
+[fibre_synth_r4_rows10_k22] k=22 rows=10 lanes=1048576 comps=[2, 2, 2, 1, 1, 1] enumerated=44 bucket=15958.5ms dict=1094.9ms packed=9615.0ms agree=True
+[fibre_synth_r4_rows10_k24] k=24 rows=10 lanes=1048576 comps=[2, 2, 2, 2, 1, 1] enumerated=48 bucket=65924.4ms dict=309.2ms packed=9671.8ms agree=True
+[E3] done in 248.3 s

@@ -1,0 +1,304 @@
+{
+ "checks": 74,
+ "passed": 74,
+ "failed": 0,
+ "results": [
+  {
+   "check": "E1 toy_direct_n10_q1: symbolic H(T) of degree 16 (bound 27) in 0.9s; H(t) equals recorded Z at all 14 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n10_q1: recorded Taylor coefficients at 14 points equal the symbolic expansion: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n10_q1: H(0) = 259; exhaustive DPLL count = 259; recorded #F = 259; recorded H(0) = 259: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n10_q1: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_q1: symbolic H(T) of degree 22 (bound 33) in 5.4s; H(t) equals recorded Z at all 17 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_q1: recorded Taylor coefficients at 17 points equal the symbolic expansion: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_q1: H(0) = 736; exhaustive DPLL count = 736; recorded #F = 736; recorded H(0) = 736: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_q1: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q0: symbolic H(T) of degree 21 (bound 39) in 20.7s; H(t) equals recorded Z at all 40 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q0: H(0) = 3108; exhaustive DPLL count = 3108; recorded #F = 3108; recorded H(0) = 3108: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q0: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q1: symbolic H(T) of degree 21 (bound 39) in 24.1s; H(t) equals recorded Z at all 20 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q1: recorded Taylor coefficients at 20 points equal the symbolic expansion: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q1: H(0) = 3108; exhaustive DPLL count = 3108; recorded #F = 3108; recorded H(0) = 3108: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n14_q1: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_nodeform: symbolic H(T) of degree 0 (bound 0) in 0.7s; H(t) equals recorded Z at all 1 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_nodeform: H(0) = 736; exhaustive DPLL count = 736; recorded #F = 736; recorded H(0) = 736: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n12_nodeform: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n8_q1: symbolic H(T) of degree 10 (bound 21) in 0.1s; H(t) equals recorded Z at all 11 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n8_q1: recorded Taylor coefficients at 11 points equal the symbolic expansion: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n8_q1: H(0) = 85; exhaustive DPLL count = 85; recorded #F = 85; recorded H(0) = 85: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_direct_n8_q1: design conditions (1), (3) [max |row| sum 1], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n6_Q2R2: symbolic H(T) of degree 7 (bound 15) in 0.0s; H(t) equals recorded Z at all 2 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n6_Q2R2: recorded Taylor coefficients at 2 points equal the symbolic expansion: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n6_Q2R2: H(0) = 34; exhaustive DPLL count = 34; recorded #F = 34; recorded H(0) = 34: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n6_Q2R2: design conditions (1), (3) [max |row| sum 2], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q2R2: symbolic H(T) of degree 18 (bound 33) in 3.6s; H(t) equals recorded Z at all 2 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q2R2: H(0) = 736; exhaustive DPLL count = 736; recorded #F = 736: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q2R2: design conditions (1), (3) [max |row| sum 2], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q3R2: symbolic H(T) of degree 12 (bound 33) in 2.7s; H(t) equals recorded Z at all 3 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q3R2: H(0) = 736; exhaustive DPLL count = 736; recorded #F = 736: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_Q3R2: design conditions (1), (3) [max |row| sum 3], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_r3_Q2R2: symbolic H(T) of degree 24 (bound 33) in 3.1s; H(t) equals recorded Z at all 2 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_r3_Q2R2: H(0) = 736; exhaustive DPLL count = 736; recorded #F = 736: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n12_r3_Q2R2: design conditions (1), (3) [max |row| sum 2], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n8_Q3R4: symbolic H(T) of degree 32 (bound 63) in 0.3s; H(t) equals recorded Z at all 3 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n8_Q3R4: H(0) = 85; exhaustive DPLL count = 85; recorded #F = 85: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_aux_n8_Q3R4: design conditions (1), (3) [max |row| sum 0], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_collapse_n7: symbolic H(T) of degree 3 (bound 21) in 0.1s; H(t) equals recorded Z at all 1 points: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_collapse_n7: H(0) = 48; exhaustive DPLL count = 48; recorded #F = 48: True",
+   "ok": true
+  },
+  {
+   "check": "E1 toy_collapse_n7: design conditions (1), (3) [max |row| sum 4], (4) and P(0) = e_v re-verified at every point: True",
+   "ok": true
+  },
+  {
+   "check": "E2: BFS recomputation of largest component and component count agrees on 42 (n, r, seed) records: True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_design_r2_k8: plain enumeration of 2^8 assignments mod p reproduces the stored histogram (10 entries, 0.0s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_design_r2_k10: plain enumeration of 2^10 assignments mod p reproduces the stored histogram (30 entries, 0.0s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_design_r2_k12: plain enumeration of 2^12 assignments mod p reproduces the stored histogram (126 entries, 0.2s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_design_r2_k14: plain enumeration of 2^14 assignments mod p reproduces the stored histogram (243 entries, 1.0s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_design_r2_k16: plain enumeration of 2^16 assignments mod p reproduces the stored histogram (210 entries, 2.7s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_synth_r4_rows8_k16: plain enumeration of 2^16 assignments mod p reproduces the stored histogram (5248 entries, 3.1s): True",
+   "ok": true
+  },
+  {
+   "check": "E3 fibre_synth_r3_rows8_k16: plain enumeration of 2^16 assignments mod p reproduces the stored histogram (7328 entries, 5.2s): True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 4x4: transfer-matrix DP reproduces the size histogram (9 sizes, 0.0s): True; total 1234 = OEIS: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 4x4: encoded count at b = 1 (16) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 4x4: encoded count at b = 2 (96) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 4x4: encoded count at b = 4 (405) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 5x5: transfer-matrix DP reproduces the size histogram (14 sizes, 0.0s): True; total 55447 = OEIS: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 5x5: encoded count at b = 1 (25) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 5x5: encoded count at b = 3 (1474) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 5x5: encoded count at b = 6 (14650) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 6x6: transfer-matrix DP reproduces the size histogram (19 sizes, 0.0s): True; total 5598861 = OEIS: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 6x6: encoded count at b = 1 (36) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 6x6: encoded count at b = 4 (31320) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 6x6: encoded count at b = 9 (1247116) equals transfer-matrix entry: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 7x7: transfer-matrix DP reproduces the size histogram (26 sizes, 0.0s): True; total 1280128950 = OEIS: True",
+   "ok": true
+  },
+  {
+   "check": "E4 grid 8x8: transfer-matrix DP reproduces the size histogram (33 sizes, 0.0s): True; total 660647962955 = OEIS: True",
+   "ok": true
+  },
+  {
+   "check": "E4 6x6 pseudo_boolean: transfer-matrix DP reproduces the 37-entry histogram: True",
+   "ok": true
+  },
+  {
+   "check": "E4 6x6 two_rows: transfer-matrix DP reproduces the 100-entry histogram: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=20 m=50: exhaustive DPLL enumeration of every model reproduces the cardinality histogram (11 entries, total 1085, 0.0s): True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=20: encoded count at b = 5 (0) equals the enumeration: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=20: encoded count at b = 10 (212) equals the enumeration: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=30 m=75: exhaustive DPLL enumeration of every model reproduces the cardinality histogram (21 entries, total 8865023034, 0.8s): True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=30: encoded count at b = 7 (16769) equals the enumeration: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=30: encoded count at b = 15 (266540274) equals the enumeration: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=40 m=100: exhaustive DPLL enumeration of every model reproduces the cardinality histogram (26 entries, total 15508669989168, 10.7s): True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=40: encoded count at b = 10 (246492) equals the enumeration: True",
+   "ok": true
+  },
+  {
+   "check": "E4 random n=40: encoded count at b = 20 (192263201424) equals the enumeration: True",
+   "ok": true
+  }
+ ],
+ "finished_utc": "2026-10-28T15:13:01Z"
+}

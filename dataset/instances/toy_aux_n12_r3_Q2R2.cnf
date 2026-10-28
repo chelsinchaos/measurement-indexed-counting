@@ -1,0 +1,14 @@
+c toy_aux_n12_r3_Q2R2: random bounded-occurrence 3-CNF, measurement_toy.random_bounded_occurrence_3cnf(n=12, m=12, seed=3)
+c every variable occurs in at most three clauses; clauses have three distinct variables
+p cnf 12 11
+4 -10 9 0
+10 -2 12 0
+-4 -12 8 0
+-3 -4 -12 0
+2 3 -1 0
+9 -8 10 0
+3 7 1 0
+-9 11 -8 0
+-7 -5 -6 0
+-1 5 -2 0
+-5 -7 11 0

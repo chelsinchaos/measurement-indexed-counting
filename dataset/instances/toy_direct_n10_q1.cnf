@@ -1,0 +1,12 @@
+c toy_direct_n10_q1: random bounded-occurrence 3-CNF, measurement_toy.random_bounded_occurrence_3cnf(n=10, m=10, seed=7)
+c every variable occurs in at most three clauses; clauses have three distinct variables
+p cnf 10 9
+-6 3 -7 0
+6 1 4 0
+2 -9 -7 0
+10 1 -7 0
+3 5 4 0
+-3 2 5 0
+-2 6 -1 0
+-8 9 10 0
+-5 -10 -4 0

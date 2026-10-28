@@ -1,0 +1,25 @@
+[grid 4x4] n=16 sizes=9 total=1234 oeis=True nodes=43 t=3.0ms
+   encoding b=1: aux=31 nodes=15 maxcomp=31 t=3.4ms ratio=1.14 ok=True
+   encoding b=2: aux=45 nodes=50 maxcomp=46 t=13.2ms ratio=4.43 ok=True
+   encoding b=4: aux=70 nodes=95 maxcomp=73 t=38.2ms ratio=12.81 ok=True
+[grid 5x5] n=25 sizes=14 total=55447 oeis=True nodes=111 t=13.9ms
+   encoding b=1: aux=49 nodes=24 maxcomp=49 t=10.7ms ratio=0.77 ok=True
+   encoding b=3: aux=94 nodes=201 maxcomp=96 t=113.7ms ratio=8.18 ok=True
+   encoding b=6: aux=154 nodes=379 maxcomp=159 t=430.4ms ratio=30.95 ok=True
+[grid 6x6] n=36 sizes=19 total=5598861 oeis=True nodes=262 t=37.9ms
+   encoding b=1: aux=71 nodes=35 maxcomp=71 t=22.6ms ratio=0.60 ok=True
+   encoding b=4: aux=170 nodes=655 maxcomp=173 t=1096.3ms ratio=28.92 ok=True
+   encoding b=9: aux=315 nodes=1344 maxcomp=323 t=5067.9ms ratio=133.67 ok=True
+[grid 7x7] n=49 sizes=26 total=1280128950 oeis=True nodes=583 t=278.2ms
+[grid 8x8] n=64 sizes=33 total=660647962955 oeis=True nodes=1246 t=607.7ms
+[6x6 multirow] pseudo-Boolean 37 values 43.0ms; two rows 100 pairs 50.8ms
+[random n=20] hist 11 entries t=5.2ms nodes=78; plain t=4.3ms
+   encoding b=5: aux=105 nodes=16 maxcomp=109 t=27.3ms ratio=5.2 ok=True
+   encoding b=10: aux=165 nodes=212 maxcomp=174 t=207.5ms ratio=39.8 ok=True
+[random n=30] hist 21 entries t=44.5ms nodes=557; plain t=36.0ms
+   encoding b=7: aux=212 nodes=252 maxcomp=218 t=343.0ms ratio=7.7 ok=True
+   encoding b=15: aux=360 nodes=7644 maxcomp=374 t=17968.3ms ratio=403.5 ok=True
+[random n=40] hist 26 entries t=329.0ms nodes=2186; plain t=261.1ms
+   encoding b=10: aux=385 nodes=658 maxcomp=394 t=4248.7ms ratio=12.9 ok=True
+   encoding b=20: aux=630 nodes=97698 maxcomp=649 t=356479.1ms ratio=1083.4 ok=True
+[E4] done in 396.3 s

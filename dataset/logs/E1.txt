@@ -1,0 +1,39 @@
+[toy_direct_n10_q1] n=10 m=9 M=27 kind=direct r=2 degP=1 Q=14 q=1 J=2 #F=259
+[toy_direct_n10_q1] (2.6) OK at 14 points; tuples [32, 32, 32, 32, 32, 32]...; costs: pairs 21 x tuples 32 x group 64 vs 2^n 1024
+[toy_direct_n10_q1] H(0) = 259 = #F (taylor_2_9)
+[toy_direct_n12_q1] n=12 m=11 M=33 kind=direct r=2 degP=1 Q=17 q=1 J=2 #F=736
+[toy_direct_n12_q1] (2.6) OK at 17 points; tuples [32, 32, 32, 32, 32, 32]...; costs: pairs 25 x tuples 32 x group 128 vs 2^n 4096
+[toy_direct_n12_q1] H(0) = 736 = #F (taylor_2_9)
+[toy_direct_n14_q0] n=14 m=13 M=39 kind=direct r=2 degP=1 Q=40 q=0 J=1 #F=3108
+[toy_direct_n14_q0] (2.6) OK at 40 points; tuples [1024, 1024, 1024, 1024, 1024, 1024]...; costs: pairs 1 x tuples 1024 x group 256 vs 2^n 16384
+[toy_direct_n14_q0] H(0) = 3108 = #F (plain_interpolation)
+[toy_direct_n14_q1] n=14 m=13 M=39 kind=direct r=2 degP=1 Q=20 q=1 J=2 #F=3108
+[toy_direct_n14_q1] (2.6) OK at 20 points; tuples [1024, 1024, 1024, 1024, 1024, 1024]...; costs: pairs 29 x tuples 1024 x group 256 vs 2^n 16384
+[toy_direct_n14_q1] H(0) = 3108 = #F (taylor_2_9)
+[toy_direct_n12_nodeform] n=12 m=11 M=33 kind=direct r=2 degP=0 Q=1 q=0 J=1 #F=736
+[toy_direct_n12_nodeform] (2.6) OK at 1 points; tuples [32]...; costs: pairs 1 x tuples 32 x group 128 vs 2^n 4096
+[toy_direct_n12_nodeform] H(0) = 736 = #F (constant)
+[toy_direct_n8_q1] n=8 m=7 M=21 kind=direct r=2 degP=1 Q=11 q=1 J=2 #F=85
+[toy_direct_n8_q1] (2.6) OK at 11 points; tuples [64, 64, 64, 64, 64, 64]...; costs: pairs 17 x tuples 64 x group 32 vs 2^n 256
+[toy_direct_n8_q1] H(0) = 85 = #F (taylor_2_9)
+[toy_aux_n6_Q2R2] n=6 m=5 M=15 kind=aux r=2 degP=1 Q=2 q=7 J=8 #F=34
+[toy_aux_n6_Q2R2] (2.6) OK at 2 points; tuples [12, 12]...; costs: pairs 729 x tuples 12 x group 20 vs 2^n 64
+[toy_aux_n6_Q2R2] H(0) = 34 = #F (taylor_2_9)
+[toy_aux_n12_Q2R2] n=12 m=11 M=33 kind=aux r=2 degP=1 Q=2 q=16 J=17 #F=736
+[toy_aux_n12_Q2R2] (2.6) OK at 2 points; tuples [81, 81]...; costs: pairs 531441 x tuples 81 x group 128 vs 2^n 4096
+[toy_aux_n12_Q2R2] Taylor stage skipped (1062882 restricted sums > budget 2000); (2.6) certified at every point
+[toy_aux_n12_Q3R2] n=12 m=11 M=33 kind=aux r=2 degP=1 Q=3 q=11 J=12 #F=736
+[toy_aux_n12_Q3R2] (2.6) OK at 3 points; tuples [1024, 768, 768]...; costs: pairs 527345 x tuples 1024 x group 272 vs 2^n 4096
+[toy_aux_n12_Q3R2] Taylor stage skipped (1582035 restricted sums > budget 2000); (2.6) certified at every point
+[toy_aux_n12_r3_Q2R2] n=12 m=11 M=33 kind=aux r=3 degP=1 Q=2 q=16 J=17 #F=736
+[toy_aux_n12_r3_Q2R2] (2.6) OK at 2 points; tuples [896, 1024]...; costs: pairs 531441 x tuples 1024 x group 80 vs 2^n 4096
+[toy_aux_n12_r3_Q2R2] Taylor stage skipped (1062882 restricted sums > budget 2000); (2.6) certified at every point
+[toy_aux_n8_Q3R4] n=8 m=7 M=21 kind=aux r=2 degP=3 Q=3 q=21 J=22 #F=85
+[toy_aux_n8_Q3R4] (2.6) OK at 3 points; tuples [1, 1, 1]...; costs: pairs 6561 x tuples 1 x group 32 vs 2^n 256
+[toy_aux_n8_Q3R4] Taylor stage skipped (19683 restricted sums > budget 2000); (2.6) certified at every point
+[toy_collapse_n7] n=7 m=7 M=21 kind=collapse r=2 degP=1 Q=1 q=21 J=22 #F=48
+[toy_collapse_n7] (2.6) OK at 1 points; tuples [20]...; costs: pairs 2187 x tuples 20 x group 24 vs 2^n 128
+[toy_collapse_n7] Taylor stage skipped (2187 restricted sums > budget 2000); (2.6) certified at every point
+[toy_check_n7_s1] direct (2.6) True, H0 48 == #F 48: True; aux (2.6) True
+[toy_check_n7_s2] direct (2.6) True, H0 48 == #F 48: True; aux (2.6) True
+[E1] done in 673.9 s
